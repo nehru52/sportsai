@@ -1,0 +1,47 @@
+{
+  "sport": "volleyball",
+  "techniques": {
+    "spike": {
+      "description": "Attacking shot hit downward into opponent court",
+      "metrics": {
+        "approach_speed": {"unit": "m/s", "description": "Speed during 3-step approach"},
+        "jump_height": {"unit": "cm", "description": "Vertical jump height at takeoff"},
+        "arm_cock_angle": {"unit": "degrees", "description": "Shoulder abduction angle at arm cocking phase"},
+        "contact_point": {"unit": "normalized", "description": "Ball contact point relative to body center"},
+        "follow_through": {"unit": "degrees", "description": "Arm follow-through arc after contact"}
+      }
+    },
+    "serve": {
+      "description": "Initiating shot to start rally",
+      "metrics": {
+        "toss_height": {"unit": "cm", "description": "Ball toss height above contact point"},
+        "step_timing": {"unit": "seconds", "description": "Time between step and contact"},
+        "shoulder_rotation": {"unit": "degrees", "description": "Shoulder girdle rotation at contact"},
+        "wrist_snap": {"unit": "degrees/s", "description": "Wrist angular velocity at contact"},
+        "body_lean": {"unit": "degrees", "description": "Trunk forward lean angle at contact"}
+      }
+    },
+    "block": {
+      "description": "Defensive action at net to deflect attack",
+      "metrics": {
+        "reaction_time": {"unit": "seconds", "description": "Time from opponent contact to jump initiation"},
+        "penultimate_step": {"unit": "cm", "description": "Length of second-to-last step"},
+        "hand_position": {"unit": "cm", "description": "Hand height above net at peak jump"},
+        "shoulder_width": {"unit": "cm", "description": "Lateral spread of arms at block"},
+        "landing_balance": {"unit": "score", "description": "Center of mass stability on landing 0-1"}
+      }
+    },
+    "dig": {
+      "description": "Defensive reception of attacked ball",
+      "metrics": {
+        "platform_angle": {"unit": "degrees", "description": "Forearm platform angle relative to ground"},
+        "knee_bend": {"unit": "degrees", "description": "Knee flexion angle at ball contact"},
+        "hip_drop": {"unit": "cm", "description": "Hip height drop from standing to contact"},
+        "arm_extension": {"unit": "degrees", "description": "Elbow extension angle at contact"},
+        "recovery_position": {"unit": "seconds", "description": "Time to return to ready stance after dig"}
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,8 @@
+venv/
+data/raw_videos/
+data/pose_data/
+models/AthletePose3D/
+cookies.txt
+__pycache__/
+*.pyc
+*.npy
