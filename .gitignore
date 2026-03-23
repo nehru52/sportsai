@@ -3,6 +3,10 @@ data/raw_videos/
 data/pose_data/
 models/AthletePose3D/
 cookies.txt
+*.txt.txt
+*.lnk
+*.pt
 __pycache__/
 *.pyc
 *.npy
+
